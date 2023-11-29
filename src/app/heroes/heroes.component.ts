@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class HeroesComponent {
   heroes = HEROES;
-  selectedHero? Hero: Hero;
+  selectedHero?: Hero;
   
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
